@@ -1,0 +1,48 @@
+Jan 17 14:43:31.053 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 17 14:43:31.053 HYPERVISOR: Started on IP = 192.168.232.1, TCP port = 51172.
+Jan 17 14:43:31.109 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 17 14:43:31.121 HYPERVISOR: exec_cmd: hypervisor working_dir E:\universidad\Tercero\ATR\GNS3\projects\FINAL ATR\EntregaFinal\TerceraEntrega7\project-files\dynamips 
+Jan 17 14:43:31.121 GENERAL: working_dir=E:\universidad\Tercero\ATR\GNS3\projects\FINAL ATR\EntregaFinal\TerceraEntrega7\project-files\dynamips
+Jan 17 14:43:31.138 HYPERVISOR: exec_cmd: vm create R12 18 c3745 
+Jan 17 14:43:31.139 VM: VM R12 created.
+Jan 17 14:43:31.163 HYPERVISOR: exec_cmd: vm set_con_tcp_port R12 5010 
+Jan 17 14:43:31.175 HYPERVISOR: exec_cmd: c3745 get_mac_addr R12 
+Jan 17 14:43:31.199 HYPERVISOR: exec_cmd: vm get_status R12 
+Jan 17 14:43:31.220 HYPERVISOR: exec_cmd: vm slot_add_binding R12 4 0 NM-1FE-TX 
+Jan 17 14:43:31.228 HYPERVISOR: exec_cmd: vm get_status R12 
+Jan 17 14:43:31.242 HYPERVISOR: exec_cmd: vm set_idle_pc R12 0x60aa1da0 
+Jan 17 14:43:31.252 HYPERVISOR: exec_cmd: vm set_nvram R12 256 
+Jan 17 14:43:31.263 HYPERVISOR: exec_cmd: vm set_disk0 R12 0 
+Jan 17 14:43:31.281 HYPERVISOR: exec_cmd: vm set_ram R12 256 
+Jan 17 14:43:31.299 HYPERVISOR: exec_cmd: c3745 set_mac_addr R12 c412.2ba8.0000 
+Jan 17 14:43:31.320 HYPERVISOR: exec_cmd: vm set_exec_area R12 64 
+Jan 17 14:43:31.337 HYPERVISOR: exec_cmd: vm set_con_tcp_port R12 5010 
+Jan 17 14:43:31.358 HYPERVISOR: exec_cmd: vm set_ios R12 E:/universidad/Tercero/ATR/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Jan 17 14:43:31.374 HYPERVISOR: exec_cmd: vm get_status R12 
+Jan 17 14:43:31.391 HYPERVISOR: exec_cmd: vm slot_add_binding R12 1 0 NM-1FE-TX 
+Jan 17 14:43:31.410 HYPERVISOR: exec_cmd: vm get_status R12 
+Jan 17 14:43:31.429 HYPERVISOR: exec_cmd: vm slot_add_binding R12 2 0 NM-1FE-TX 
+Jan 17 14:43:31.441 HYPERVISOR: exec_cmd: vm get_status R12 
+Jan 17 14:43:31.455 HYPERVISOR: exec_cmd: vm slot_add_binding R12 3 0 NM-1FE-TX 
+Jan 17 14:43:31.475 HYPERVISOR: exec_cmd: vm set_config R12 configs/i18_startup-config.cfg 
+Jan 17 14:43:34.666 HYPERVISOR: exec_cmd: nio create_udp udp-d2828c6e-32ea-4b24-963a-765257cf1dda 10027 192.168.232.1 10026 
+Jan 17 14:43:34.689 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R12 0 1 udp-d2828c6e-32ea-4b24-963a-765257cf1dda 
+Jan 17 14:43:34.709 HYPERVISOR: exec_cmd: vm get_status R12 
+Jan 17 14:43:34.771 HYPERVISOR: exec_cmd: nio create_udp udp-8b217aee-5842-442d-b490-166d2c25ec03 10028 192.168.232.1 10029 
+Jan 17 14:43:34.804 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R12 0 0 udp-8b217aee-5842-442d-b490-166d2c25ec03 
+Jan 17 14:43:34.827 HYPERVISOR: exec_cmd: vm get_status R12 
+Jan 17 14:44:20.336 HYPERVISOR: exec_cmd: vm set_ghost_status R12 2 
+Jan 17 14:44:20.340 HYPERVISOR: exec_cmd: vm set_ghost_file R12 c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Jan 17 14:44:20.344 HYPERVISOR: exec_cmd: vm get_status R12 
+Jan 17 14:44:20.349 HYPERVISOR: exec_cmd: vm start R12 
+Jan 17 15:02:28.395 HYPERVISOR: exec_cmd: vm get_status R12 
+Jan 17 15:02:28.421 HYPERVISOR: exec_cmd: vm stop R12 
+Jan 17 15:02:28.527 VM: VM R12 shutdown.
+Jan 17 15:02:28.549 HYPERVISOR: exec_cmd: vm extract_config R12 
+Jan 17 15:02:33.412 HYPERVISOR: exec_cmd: vm get_status R12 
+Jan 17 15:02:33.511 HYPERVISOR: exec_cmd: vm extract_config R12 
+Jan 17 15:02:33.649 HYPERVISOR: exec_cmd: vm delete R12 
+Jan 17 15:02:33.649 VM: VM R12 destroyed.
+Jan 17 15:02:33.765 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 17 15:02:34.162 HYPERVISOR: Stopped.
+Jan 17 15:02:34.162 GENERAL: reset done.
